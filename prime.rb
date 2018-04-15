@@ -5,7 +5,9 @@
   elsif x % 2 == 0
    return false
  else
-    for y in (2..Math.sqrt(x).to_i).to_a
+   range_max = Math.sqrt(x).to_i 
+   range_array = (2..range_max).to_a
+    for y in range_array
       if (x % x == 0)
         prime = false
         break
