@@ -2,6 +2,7 @@
   def prime?(x)
     if x <= 1
       return false
+    end
     elsif
    range_max = Math.sqrt(x).to_i 
    range_array = (2..range_max).to_a
