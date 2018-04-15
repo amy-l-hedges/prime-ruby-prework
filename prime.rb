@@ -3,7 +3,7 @@
     if x <= 1
       return false
     end
-    elsif
+  else
    range_max = Math.sqrt(x).to_i 
    range_array = (2..range_max).to_a
    range_array.each do |int|
