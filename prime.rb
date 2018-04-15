@@ -4,8 +4,9 @@
       return false
   elsif x % 2 == 0
    return false
-    for x in 2..Math.sqrt(self).to_i
-      if (self % x == 0)
+ else
+    for y in (2..Math.sqrt(x).to_i).to_a
+      if (x % x == 0)
         prime = false
         break
       end
