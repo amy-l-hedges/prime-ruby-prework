@@ -11,5 +11,5 @@
         return false
       end
     end
-  else return true
+  return true
   end
